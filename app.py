@@ -6,7 +6,7 @@ from bson.objectid import ObjectId
 app = Flask(__name__)
 
 app.config["MONGO_DBNAME"] = 'task_manager'
-app.config["MONGO_URI"] = os.getenv('MONGO_URI1')  # 'MONGO_URI1' jest zapisane w enviroment variables, zeby nie bylo widac hasla
+app.config["MONGO_URI"] = os.getenv('MONGO_URI')  # 'MONGO_URI1' jest zapisane w enviroment variables, zeby nie bylo widac hasla
 
 
 
